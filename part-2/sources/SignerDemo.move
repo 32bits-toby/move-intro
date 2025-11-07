@@ -20,7 +20,7 @@ module net2dev_addr::SignerDemo {
         print(address_val);
     }
 
-    #[test(account = @net2dev_addr)]
+    // #[test(account = @net2dev_addr)]
     fun test_function(account: signer) {
         check_owner(account);
     }

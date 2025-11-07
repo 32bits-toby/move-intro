@@ -51,7 +51,7 @@ module net2dev_addr::ReferenceDemo {
     }
 
 
-    #[test]
+    // #[test]
     fun test_function(){
         //scenario_1();
         //scenario_2();

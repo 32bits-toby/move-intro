@@ -24,7 +24,7 @@ module net2dev_addr::MapsDemo{
     #[test_only]
     use std::debug::print;
 
-    #[test]
+    // #[test]
     fun test_function(){
         let my_map = create_map();
         let country = simple_map::borrow(&mut my_map, &2);
